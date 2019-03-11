@@ -1,33 +1,32 @@
-{
-“events”:
+
 [
 {
-“Job”: “University of St. Thomas Dining Services- The View”,
-“Date”: “2015-2019”
-}
+â€œJobâ€: â€œUniversity of St. Thomas Dining Services- The Viewâ€,
+â€œDateâ€: â€œ2015-2019â€
+},
 {
-“Job”: “University of St. Thomas Dining Services- Residence Life”,
-“Date”: “2017-2019”
-}
+â€œJobâ€: â€œUniversity of St. Thomas Dining Services- Residence Lifeâ€,
+â€œDateâ€: â€œ2017-2019â€
+},
 {
-“Project”:“Animated Films”,
-“Date”: “2018”
-}
+â€œProjectâ€:â€œAnimated Filmsâ€,
+â€œDateâ€: â€œ2018â€
+},
 {
-“Project”:“Worst Movie Picking”,
-“Date”: “2018”
-}
+â€œProjectâ€:â€œWorst Movie Pickingâ€,
+â€œDateâ€: â€œ2018â€
+},
 {
-“Course”:“Stat 320”,
-“Date”: “2018”
-}
+â€œCourseâ€:â€œStat 320â€,
+â€œDateâ€: â€œ2018â€
+},
 {
-“Course”:“Stat 400”,
-“Date”: “2018”
-}
+â€œCourseâ€:â€œStat 400â€,
+â€œDateâ€: â€œ2018â€
+},
 {
-“Course”:“CISC 230”,
-“Date”: “2018”
+â€œCourseâ€:â€œCISC 230â€,
+â€œDateâ€: â€œ2018â€
 }
 ]
-}
+
