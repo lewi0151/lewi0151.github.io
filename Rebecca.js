@@ -25,7 +25,7 @@ jsonreq.send();
     }
 
  var jsonreq=new XMLHttpRequest();
-  var url= "Resume.txt";
+  var url= " https://lewi0151.github.io/Resume.txt";
         jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
             var jsonarr=JSON.parse(this.responseText); 
             getJson(jsonarr);
