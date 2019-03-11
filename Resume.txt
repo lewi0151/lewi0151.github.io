@@ -1,0 +1,42 @@
+"Name": "Rebecca Jo Lewis";
+"Phone": "507-358-3675";
+"Mail":"Mailbox 5295, 2115 Summit Ave, St. Paul, MN  55105";
+"Objective": "To obtain an entry-level job position in an organization where I can use my statistical knowledge, computer and actuarial science skills to expand my work experience while enhancing the work environment."
+"College Education":
+[
+{
+"College":"University of St. Thomas, St. Paul, MN", "Date":"September 2015 to May 2019";
+"Major":"Majoring in Actuarial Science";
+"Major":"Majoring in Statistics";
+"Skills":"Skilled in R and Excel";
+"Minor":"Minoring in Computer Science";
+"Skills":"Skilled in Java, Mathematica, Matlab, C, and SAS Enterprise Miner";
+"College":"Rochester Community and Technical College, Rochester, MN — PSEO (Post-Secondary Education Option)", "Date":"August 2013 to May 2015 ";
+}
+]
+"Work Experience":
+[
+{
+"Job":"Student Worker at The View (Dining Services at University of St. Thomas)","Date":"November 2015 to present";
+"Job":"Desk Attendant at Residence Life (University of St. Thomas)", "Date":"August 2017 to present";
+
+}]
+
+"Skills";
+[
+{
+"Skill":"Detail Oriented";
+"Skill": "Excellent Time Management Skills";
+"Skill": "Hardworking";
+"Skill": "Experience with Excel, Matlab, Java, and C through college courses";
+}
+]
+"College Experience (University of St. Thomas"
+[
+{
+"Club":"Member of the UST Fencing Club from 2015 to 2017";
+"Club":"Member of Grace Hall Residence Association 2015-2017";
+"Club":"Haunted Cretin 2015, 2016, 2017 Tour Guide";
+"Club":"Member of the Math and Actuarial Science Club 2015-2018";
+"Club":"Volunteer Coordinator of The UST Table Top Gaming Club 2018-2019";
+}]
