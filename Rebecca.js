@@ -1,5 +1,6 @@
 function Init() {
     fadeDuration: 600;
+}
     
   
     var jsonreq=new XMLHttpRequest();
@@ -58,5 +59,5 @@ xmlhttp.send();
       preloadPrev.src = this.album[this.currentImageIndex - 1].link;
     }
   };*?
-  };
+  
 
