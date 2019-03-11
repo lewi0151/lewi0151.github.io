@@ -1,8 +1,34 @@
 function Init() {
     fadeDuration: 600,
-}
+    }
+  
+    var jsonreq=new XMLHttpRequest();
+	var url= "events.json";
+        jsonreq.onreadystatechange =function() {if (req.readyState ==4&& req.status ==200) {
+            var jsonarr=JSON.parse(this.responseText); 
+            getJson(jsonarr);
+        }
+                                               }
+    xmlhttp.open("GET", url, true);
+xmlhttp.send();
+    
+   function getJson(jsonarr)
+    {
+        var out="";
+        var i;
+        for(i=0; i<jsonarr; i++)
+        {
+            out +='<a href="'+jsonarr[i].url +'">'+jsonarr[i].display +'</a><br>';
+        }
+        document.getElementById("events").innerHTML=out;
+    }
+    
+            // successfully received data!  }};req.open("GET", "web_address",true);req.send();
+//var h=setTimeout(function(){console.log("here");},1000);
+//setInterval(function(){console.log("here");},1000);
+    }
 
- function Lightbox()=  {
+ /*function Lightbox()=  {
     var image = this;
     $('body').on('click', 'a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox]', function(event) {
       self.start($(event.currentTarget));
@@ -36,5 +62,5 @@ function Init() {
       var preloadPrev = new Image();
       preloadPrev.src = this.album[this.currentImageIndex - 1].link;
     }
-  };
+  };*?
 
