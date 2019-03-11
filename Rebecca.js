@@ -39,10 +39,10 @@ function Init() {
 		client2.get(url2, function(response)
 		{
 			var response2=JSON.parse(response);
-	        document.getElementById("Job1").innerHTML = response1.Job1 + ", " + response1.Date1;
-	        document.getElementById("Job2").innerHTML=response1.Job2+ ", " + response1.Date2;
-	       	document.getElementById("Course1").innerHTML=response1.Course1+", " + response1.Date3;
-		    document.getElementById("Course2").innerHTML=response1.Course2+", " + response1.Date3;
+	        document.getElementById("Mail").innerHTML =response2.Mail;
+	        document.getElementById("Objective").innerHTML=response2.Objective;
+	       	document.getElementById("College).innerHTML=response2.College+", " + response2.Date;
+		    document.getElementById("Major").innerHTML=response2.Major+": " + response2.Skills;
 		    document.getElementById("Course3").innerHTML=response1.Course3+", " + response1.Date3;
 		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
 	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
