@@ -22,11 +22,6 @@ xmlhttp.send();
         }
         document.getElementById("events").innerHTML=out;
     }
-    
-            // successfully received data!  }};req.open("GET", "web_address",true);req.send();
-//var h=setTimeout(function(){console.log("here");},1000);
-//setInterval(function(){console.log("here");},1000);
-    }
 
  /*function Lightbox()=  {
     var image = this;
