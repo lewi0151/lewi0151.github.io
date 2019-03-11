@@ -4,9 +4,9 @@ function Init() {
     
   
     var jsonreq=new XMLHttpRequest();
-  var url= "events.json";
+  var url= "events.txt";
         jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
-            var jsonarr=(this.responseText); 
+            var jsonarr=JSON.parse(this.responseText); 
             getJson(jsonarr);
         }
                                                }
