@@ -1,32 +1,32 @@
 
 [
 {
-“Job”: “University of St. Thomas Dining Services- The View”,
-“Date”: “2015-2019”
+“Job”:“University of St. Thomas Dining Services- The View”,
+“Date”:“2015-2019”
 },
 {
-“Job”: “University of St. Thomas Dining Services- Residence Life”,
-“Date”: “2017-2019”
+“Job”:“University of St. Thomas Dining Services- Residence Life”,
+“Date”:“2017-2019”
 },
 {
 “Project”:“Animated Films”,
-“Date”: “2018”
+“Date”:“2018”
 },
 {
 “Project”:“Worst Movie Picking”,
-“Date”: “2018”
+“Date”:“2018”
 },
 {
 “Course”:“Stat 320”,
-“Date”: “2018”
+“Date”:“2018”
 },
 {
 “Course”:“Stat 400”,
-“Date”: “2018”
+“Date”:“2018”
 },
 {
 “Course”:“CISC 230”,
-“Date”: “2018”
+“Date”:“2018”
 }
 ]
 
