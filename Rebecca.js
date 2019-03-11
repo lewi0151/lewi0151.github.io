@@ -3,47 +3,50 @@ function Init() {
 }
     
   
-    var jsonreq=new XMLHttpRequest();
-  var url= " https://lewi0151.github.io/events.txt";
-        jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
-            var jsonarr=JSON.parse(this.responseText); 
-            getJson(jsonarr);
-        }
-                                               }
-    jsonreq.open("GET", url, true);
-jsonreq.send();
-    
-   function getJson(jsonarr)
-    {
-        var out="";
-        var i;
-        for(i=0; i<jsonarr; i++)
-        {
-            out +='<a href="'+jsonarr[i].url +'">'+jsonarr[i].display +'</a><br>';
-        }
-        document.getElementById("events").innerHTML=out;
-    }
+    var jsonClient = function()
+       {
 
- var jsonreq=new XMLHttpRequest();
-  var url= " https://lewi0151.github.io/Resume.txt";
-        jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
-            var jsonarr=JSON.parse(this.responseText); 
-            getJson(jsonarr);
-        }
-                                               }
-    jsonreq.open("GET", url, true);
-jsonreq.send();
-    
-   function getJson(jsonarr)
-    {
-        var out="";
-        var i;
-        for(i=0; i<jsonarr; i++)
-        {
-            out +='<a href="'+jsonarr[i].url +'">'+jsonarr[i].display +'</a><br>';
-        }
-        document.getElementById("resume").innerHTML=out;
-    }
+			this.get=function(aUrl,aCallback)
+			{
+				var jsonreq=new XMLHttpRequest();
+				jsonreq.onreadystatechange =function()
+				{
+					if (jsonreq.readyState ==4&& jsonreq.status ==200)
+					{
+        		    	aCallback(jsonreq.responseText);
+        			}
+        		}
+    			jsonreq.open("GET", url, true);
+				jsonreq.send(null);
+			}
+		}
+		var url= 'https://lewi0151.github.io/events.txt';
+		var client=new jsonClient();
+		client.get(url, function(response)
+		{
+			var response1=JSON.parse(response);
+	        document.getElementById("Job1").innerHTML = response1.Job1 + ", " + response1.Date1;
+	        document.getElementById("Job2").innerHTML=response1.Job2+ ", " + response1.Date2;
+	       	document.getElementById("Course1").innerHTML=response1.Course1+", " + response1.Date3;
+		    document.getElementById("Course2").innerHTML=response1.Course2+", " + response1.Date3;
+		    document.getElementById("Course3").innerHTML=response1.Course3+", " + response1.Date3;
+		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
+	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
+		});
+
+        var url2= 'https://lewi0151.github.io/Resume.txt';
+		var client2=new jsonClient();
+		client2.get(url2, function(response)
+		{
+			var response2=JSON.parse(response);
+	        document.getElementById("Job1").innerHTML = response1.Job1 + ", " + response1.Date1;
+	        document.getElementById("Job2").innerHTML=response1.Job2+ ", " + response1.Date2;
+	       	document.getElementById("Course1").innerHTML=response1.Course1+", " + response1.Date3;
+		    document.getElementById("Course2").innerHTML=response1.Course2+", " + response1.Date3;
+		    document.getElementById("Course3").innerHTML=response1.Course3+", " + response1.Date3;
+		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
+	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
+		});
 
 function translate()
 {
