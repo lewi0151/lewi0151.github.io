@@ -1,4 +1,2 @@
 
-
-'{“Job1”:“University of St. Thomas Dining Services The View”,“Date1”:“2015-2019”,“Job2”:“University of St. Thomas Residence Life”,“Date2”:“2017-2019”,“Project1”:“Animated Films”,“Date3”:“2018”,“Project2”:“Worst Movie Picking”,“Date4”:“2018”,“Course1”:“Stat 320”,“Date5”:“2018”,“Course2”:“Stat 400”,“Date6”:“2018”,“Course3”:“CISC 230”,“Date7”:“2018”
-}'
+ '{"Job1":"University of St. Thomas Dining Services The View", "Date1":"2015-2019", "Job2":"University of St. Thomas Residence Life","Date2":"2017-2019","Date3":2018,"Project1":"Animated Films","Project2":"Worst Movie Picking","Course1": "Stat 320","Course2": "Stat 400","Course3": "CISC 230"}'
