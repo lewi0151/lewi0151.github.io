@@ -1,2 +1,2 @@
 
- '{"Job1":"University of St. Thomas Dining Services The View", "Date1":"2015-2019", "Job2":"University of St. Thomas Residence Life","Date2":"2017-2019","Date3":2018,"Project1":"Animated Films","Project2":"Worst Movie Picking","Course1": "Stat 320","Course2": "Stat 400","Course3": "CISC 230"}'
+ {"Job1":"University of St. Thomas Dining Services The View", "Date1":"2015-2019", "Job2":"University of St. Thomas Residence Life","Date2":"2017-2019","Date3":2018,"Project1":"Animated Films","Project2":"Worst Movie Picking","Course1": "Stat 320","Course2": "Stat 400","Course3": "CISC 230"}
