@@ -23,6 +23,28 @@ jsonreq.send();
         }
         document.getElementById("events").innerHTML=out;
     }
+
+ var jsonreq=new XMLHttpRequest();
+  var url= "Resume.txt";
+        jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
+            var jsonarr=JSON.parse(this.responseText); 
+            getJson(jsonarr);
+        }
+                                               }
+    jsonreq.open("GET", url, true);
+jsonreq.send();
+    
+   function getJson(jsonarr)
+    {
+        var out="";
+        var i;
+        for(i=0; i<jsonarr; i++)
+        {
+            out +='<a href="'+jsonarr[i].url +'">'+jsonarr[i].display +'</a><br>';
+        }
+        document.getElementById("resume").innerHTML=out;
+    }
+
 function translate()
 {
     
