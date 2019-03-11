@@ -4,14 +4,14 @@ function Init() {
     
   
     var jsonreq=new XMLHttpRequest();
-	var url= "events.json";
-        jsonreq.onreadystatechange =function() {if (req.readyState ==4&& req.status ==200) {
+  var url= "events.json";
+        jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
             var jsonarr=JSON.parse(this.responseText); 
             getJson(jsonarr);
         }
                                                }
-    xmlhttp.open("GET", url, true);
-xmlhttp.send();
+    jsonreq.open("GET", url, true);
+jsonreq.send();
     
    function getJson(jsonarr)
     {
