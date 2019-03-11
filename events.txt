@@ -1,6 +1,6 @@
 
 
-{
+'{
 “Job1”:“University of St. Thomas Dining Services The View”,
 “Date1”:“2015-2019”,
 “Job2”:“University of St. Thomas Residence Life”,
@@ -15,4 +15,4 @@
 “Date6”:“2018”,
 “Course3”:“CISC 230”,
 “Date7”:“2018”
-}
+}'
