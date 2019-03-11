@@ -24,7 +24,7 @@ jsonreq.send();
         document.getElementById("events").innerHTML=out;
     }
 
- /*function Lightbox()  {
+ function Lightbox()  {
     var image = this;
     $('body').on('click', 'a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox]', function(event) {
       self.start($(event.currentTarget));
@@ -48,7 +48,7 @@ jsonreq.send();
           }
         })
     }
-}:
+};
    function LightboxNeighboringImages() {
     if (this.album.length > this.currentImageIndex + 1) {
       var preloadNext = new Image();
