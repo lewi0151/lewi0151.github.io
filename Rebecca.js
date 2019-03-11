@@ -1,5 +1,5 @@
 function Init() {
-    fadeDuration: 600,
+    fadeDuration: 600;
     }
   
     var jsonreq=new XMLHttpRequest();
