@@ -64,7 +64,6 @@ function translate()
   xhttp.open("GET", url, true);
   xhttp.send();
 }
-}
 
  function Lightbox()  {
     var image = this;
