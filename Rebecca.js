@@ -23,6 +23,26 @@ jsonreq.send();
         }
         document.getElementById("events").innerHTML=out;
     }
+function translate()
+{
+    
+    var key= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
+    var url= "https://translate.yandex.net/"+<key>+"/v1.5/tr.json/translate";
+    var text=<https://lewi0151.github.io/RebeccaLewis>;
+    var lang=<ru>;
+    var format=<html>;
+
+  var langreq = new XMLHttpRequest();
+  langreq.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("body").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", url, true);
+  xhttp.send();
+}
+}
 
  function Lightbox()  {
     var image = this;
