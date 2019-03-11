@@ -6,7 +6,7 @@ function Init() {
     var jsonreq=new XMLHttpRequest();
   var url= "events.json";
         jsonreq.onreadystatechange =function() {if (jsonreq.readyState ==4&& jsonreq.status ==200) {
-            var jsonarr=JSON.parse(this.responseText); 
+            var jsonarr=(this.responseText); 
             getJson(jsonarr);
         }
                                                }
