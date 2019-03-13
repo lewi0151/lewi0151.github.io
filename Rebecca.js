@@ -36,19 +36,6 @@ function Init() {
 		});
 
 
-  	var url2= 'https://lewi0151.github.io/Resume.txt';
-		var client2=new jsonClient();
-		client2.get(url2, function(response)
-		{
-			var response2=JSON.parse(response);
-	        document.getElementById("Mail").innerHTML=response2.Mail;
-	        document.getElementById("Objective").innerHTML=response2.Objective;
-	       	document.getElementById("College").innerHTML=response2.CollegeEducation;
-		    document.getElementById("Work Experience").innerHTML=response2.WorkExperience;
-	        document.getElementById("Skill").innerHTML=response2.Skills3;
-	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
-		});
-
 
 function translate()
 {
