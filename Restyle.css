@@ -135,6 +135,11 @@ html {
 		padding-right: 1.3rem;
 		padding-left: 1.3rem;
 	}
+	h3
+	{
+		padding-up: 1.3rem;
+		padding-left: 2rem;
+	}
 	
 	#bodytext p
 	{
