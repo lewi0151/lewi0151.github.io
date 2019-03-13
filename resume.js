@@ -13,17 +13,17 @@ function Init() {
 				{
 					if (jsonreq.readyState ==4&& jsonreq.status ==200)
 					{
-        		    			aCallback(jsonreq.responseText);
-        				}
-        			}
-    			jsonreq.open("GET", url, true);
-			jsonreq.send(null);
-			}
+        	   			aCallback(jsonreq.responseText);
+        		}
+        	}
+    		jsonreq.open("GET", url, true);
+		jsonreq.send(null);
+		}
 	}
 	
-  	var url2= 'https://lewi0151.github.io/Resume.txt';
+  	var url= 'https://lewi0151.github.io/Resume.txt';
 		var client2=new jsonClient();
-		client2.get(url2, function(response)
+		client2.get(url, function(response)
 		{
 			var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML=response2.Mail;
