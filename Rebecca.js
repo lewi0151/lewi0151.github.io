@@ -37,7 +37,7 @@ function Init() {
 	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
 		});
     }
-    document.getElementById("Job1").innerHTML=response1.events.function();
+    document.getElementById("Job1").innerHTML=events.function();
     var resumes=function()
     {
 
@@ -54,7 +54,7 @@ function Init() {
 	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
 		});
     }
-    document.getElementById("Mail").innerHTML=response2.resumes.function();
+    document.getElementById("Mail").innerHTML=resumes.function();
 
 function translate()
 {
