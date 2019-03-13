@@ -2,7 +2,7 @@
 {"Phone": "507-358-3675"},
 {"Mail":"Mailbox 5295, 2115 Summit Ave, St. Paul, MN  55105"},
 {"Objective": "To obtain an entry-level job position in an organization where I can use my statistical knowledge, computer and actuarial science skills to expand my work experience while enhancing the work environment."}
-{"College Education":
+{"CollegeEducation":
 [
 {
 {"College1":"University of St. Thomas, St. Paul, MN"}, {"Date1":"September 2015 to May 2019"},
@@ -15,7 +15,7 @@
 }
 ]
 }
-{"Work Experience":
+{"WorkExperience":
 [
 {
 "Job1":"Student Worker at The View (Dining Services at University of St. Thomas)","Date3":"November 2015 to present"},
@@ -33,7 +33,7 @@
 {"Skill4": "Experience with Excel, Matlab, Java, and C through college courses"}
 ]
 }
-{"College Experience (University of St. Thomas)"
+{"CollegeExperienceUST"
 [
 {
 "Club1":"Member of the UST Fencing Club from 2015 to 2017"},
