@@ -41,11 +41,11 @@ function Init() {
 			var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML =response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
-	       	document.getElementById("College").innerHTML=response2.College Education;
-		    document.getElementById("Major").innerHTML=response2.Major+": " + response2.Skills;
-		    document.getElementById("Course3").innerHTML=response1.Course3+", " + response1.Date3;
-		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
-	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
+	       	document.getElementById("College").innerHTML=response2.CollegeEducation;
+		    document.getElementById("Work Experience").innerHTML=response2.WorkExperience;
+	        document.getElementById("Skill").innerHTML=response2.Skills3;
+			
+	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
 		});
 
 function translate()
