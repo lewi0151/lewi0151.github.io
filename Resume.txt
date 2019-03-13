@@ -2,7 +2,8 @@
 {"Phone": "507-358-3675"},
 {"Mail":"Mailbox 5295, 2115 Summit Ave, St. Paul, MN  55105"},
 {"Objective": "To obtain an entry-level job position in an organization where I can use my statistical knowledge, computer and actuarial science skills to expand my work experience while enhancing the work environment."}
-{"CollegeEducation":
+{
+"CollegeEducation":
 [
 {
 {"College1":"University of St. Thomas, St. Paul, MN"}, {"Date1":"September 2015 to May 2019"},
