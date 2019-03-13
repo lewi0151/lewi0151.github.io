@@ -13,14 +13,17 @@ function Init() {
 				{
 					if (jsonreq.readyState ==4&& jsonreq.status ==200)
 					{
-        		    	aCallback(jsonreq.responseText);
+        		    			aCallback(jsonreq.responseText);
+        				}
         			}
-        		}
     			jsonreq.open("GET", url, true);
-				jsonreq.send(null);
+			jsonreq.send(null);
 			}
-		}
-		var url= 'https://lewi0151.github.io/events.txt';
+	}
+	
+    var events=function()
+    {
+    	var url= 'https://lewi0151.github.io/events.txt';
 		var client=new jsonClient();
 		client.get(url, function(response)
 		{
@@ -33,8 +36,12 @@ function Init() {
 		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
 	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
 		});
+    }
+    
+    var resumes=function()
+    {
 
-        var url2= 'https://lewi0151.github.io/Resume.txt';
+  	var url2= 'https://lewi0151.github.io/Resume.txt';
 		var client2=new jsonClient();
 		client2.get(url2, function(response)
 		{
@@ -46,6 +53,7 @@ function Init() {
 	        document.getElementById("Skill").innerHTML=response2.Skills3;
 	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
 		});
+    }
 
 function translate()
 {
