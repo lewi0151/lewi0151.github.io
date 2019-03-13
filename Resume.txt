@@ -1,11 +1,7 @@
 [{"Name": "Rebecca Jo Lewis"},
 {"Phone": "507-358-3675"},
 {"Mail":"Mailbox 5295, 2115 Summit Ave, St. Paul, MN  55105"},
-{"Objective": "To obtain an entry-level job position in an organization where I can use my statistical knowledge, computer and actuarial science skills to expand my work experience while enhancing the work environment."}
-{
-"CollegeEducation":
-[
-{
+{"Objective": "To obtain an entry-level job position in an organization where I can use my statistical knowledge, computer and actuarial science skills to expand my work experience while enhancing the work environment."},
 {"College1":"University of St. Thomas, St. Paul, MN"}, {"Date1":"September 2015 to May 2019"},
 {"Major1"}:{"Majoring in Actuarial Science"},
 {"Major2"}:{"Majoring in Statistics",
@@ -13,34 +9,16 @@
 {"Minor1":"Minoring in Computer Science",
 "Skills2":"Skilled in Java, Mathematica, Matlab, C, and SAS Enterprise Miner"},
 {"College2":"Rochester Community and Technical College, Rochester, MN — PSEO (Post-Secondary Education Option)", "Date2":"August 2013 to May 2015 "},
-}
-]
-}
-{"WorkExperience":
-[
-{
-"Job1":"Student Worker at The View (Dining Services at University of St. Thomas)","Date3":"November 2015 to present"},
-{"Job2":"Desk Attendant at Residence Life (University of St. Thomas)", "Date4":"August 2017 to present"}
-]
-}
-
-{
-"Skills3":
-[
-{
-"Skill1":"Detail Oriented"},
+{"Job1":"Student Worker at The View (Dining Services at University of St. Thomas)","Date3":"November 2015 to present"},
+{"Job2":"Desk Attendant at Residence Life (University of St. Thomas)", "Date4":"August 2017 to present"},
+{"Skill1":"Detail Oriented"},
 {"Skill2": "Excellent Time Management Skills"},
 {"Skill3": "Hardworking"},
-{"Skill4": "Experience with Excel, Matlab, Java, and C through college courses"}
-]
-}
-{"CollegeExperienceUST"
-[
+{"Skill4": "Experience with Excel, Matlab, Java, and C through college courses"},
 {
 "Club1":"Member of the UST Fencing Club from 2015 to 2017"},
 {"Club2":"Member of Grace Hall Residence Association 2015-2017"},
 {"Club3":"Haunted Cretin 2015, 2016, 2017 Tour Guide"},
 {"Club4":"Member of the Math and Actuarial Science Club 2015-2018"},
 {"Club5":"Volunteer Coordinator of The UST Table Top Gaming Club 2018-2019"}
-}]
 }]
