@@ -5,41 +5,41 @@
 {"College Education":
 [
 {
-{"College":"University of St. Thomas, St. Paul, MN"}, {"Date":"September 2015 to May 2019"},
-{"Major"}:{"Majoring in Actuarial Science"},
-{"Major"}:{"Majoring in Statistics",
-"Skills":"Skilled in R and Excel"},
-{"Minor":"Minoring in Computer Science",
-"Skills":"Skilled in Java, Mathematica, Matlab, C, and SAS Enterprise Miner"},
-{"College":"Rochester Community and Technical College, Rochester, MN — PSEO (Post-Secondary Education Option)", "Date":"August 2013 to May 2015 "},
+{"College1":"University of St. Thomas, St. Paul, MN"}, {"Date1":"September 2015 to May 2019"},
+{"Major1"}:{"Majoring in Actuarial Science"},
+{"Major2"}:{"Majoring in Statistics",
+"Skills1":"Skilled in R and Excel"},
+{"Minor1":"Minoring in Computer Science",
+"Skills2":"Skilled in Java, Mathematica, Matlab, C, and SAS Enterprise Miner"},
+{"College2":"Rochester Community and Technical College, Rochester, MN — PSEO (Post-Secondary Education Option)", "Date2":"August 2013 to May 2015 "},
 }
 ]
 }
 {"Work Experience":
 [
 {
-"Job":"Student Worker at The View (Dining Services at University of St. Thomas)","Date":"November 2015 to present"},
-{"Job":"Desk Attendant at Residence Life (University of St. Thomas)", "Date":"August 2017 to present"}
+"Job1":"Student Worker at The View (Dining Services at University of St. Thomas)","Date3":"November 2015 to present"},
+{"Job2":"Desk Attendant at Residence Life (University of St. Thomas)", "Date4":"August 2017 to present"}
 ]
 }
 
 {
-"Skills":
+"Skills3":
 [
 {
-"Skill":"Detail Oriented"},
-{"Skill": "Excellent Time Management Skills"},
-{"Skill": "Hardworking"},
-{"Skill": "Experience with Excel, Matlab, Java, and C through college courses"}
+"Skill1":"Detail Oriented"},
+{"Skill2": "Excellent Time Management Skills"},
+{"Skill3": "Hardworking"},
+{"Skill4": "Experience with Excel, Matlab, Java, and C through college courses"}
 ]
 }
 {"College Experience (University of St. Thomas)"
 [
 {
-"Club":"Member of the UST Fencing Club from 2015 to 2017"},
-{"Club":"Member of Grace Hall Residence Association 2015-2017"},
-{"Club":"Haunted Cretin 2015, 2016, 2017 Tour Guide"},
-{"Club":"Member of the Math and Actuarial Science Club 2015-2018"},
-{"Club":"Volunteer Coordinator of The UST Table Top Gaming Club 2018-2019"}
+"Club1":"Member of the UST Fencing Club from 2015 to 2017"},
+{"Club2":"Member of Grace Hall Residence Association 2015-2017"},
+{"Club3":"Haunted Cretin 2015, 2016, 2017 Tour Guide"},
+{"Club4":"Member of the Math and Actuarial Science Club 2015-2018"},
+{"Club5":"Volunteer Coordinator of The UST Table Top Gaming Club 2018-2019"}
 }]
 }]
