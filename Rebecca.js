@@ -25,7 +25,7 @@ function Init() {
 		client.get(url, function(response)
 		{
 			var response1=JSON.parse(response);
-	        document.getElementById("Job1").innerHTML = response1.Job1 + ", " + response1.Date1;
+	        document.getElementById("Job1").innerHTML=response1.Job1+ ", " + response1.Date1;
 	        document.getElementById("Job2").innerHTML=response1.Job2+ ", " + response1.Date2;
 	       	document.getElementById("Course1").innerHTML=response1.Course1+", " + response1.Date3;
 		    document.getElementById("Course2").innerHTML=response1.Course2+", " + response1.Date3;
@@ -39,12 +39,11 @@ function Init() {
 		client2.get(url2, function(response)
 		{
 			var response2=JSON.parse(response);
-	        document.getElementById("Mail").innerHTML =response2.Mail;
+	        document.getElementById("Mail").innerHTML=response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
 	       	document.getElementById("College").innerHTML=response2.CollegeEducation;
 		    document.getElementById("Work Experience").innerHTML=response2.WorkExperience;
 	        document.getElementById("Skill").innerHTML=response2.Skills3;
-			
 	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
 		});
 
