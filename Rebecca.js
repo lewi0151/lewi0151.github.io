@@ -41,7 +41,7 @@ function Init() {
 			var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML =response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
-	       	document.getElementById("College).innerHTML=response2.College+", " + response2.Date;
+	       	document.getElementById("College").innerHTML=response2.College Education;
 		    document.getElementById("Major").innerHTML=response2.Major+": " + response2.Skills;
 		    document.getElementById("Course3").innerHTML=response1.Course3+", " + response1.Date3;
 		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
