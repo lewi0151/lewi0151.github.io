@@ -21,8 +21,6 @@ function Init() {
 			}
 	}
 	
-    var events=function()
-    {
     	var url= 'https://lewi0151.github.io/events.txt';
 		var client=new jsonClient();
 		client.get(url, function(response)
@@ -36,10 +34,7 @@ function Init() {
 		    document.getElementById("Project1").innerHTML=response1.Project1+", " + response1.Date3;
 	        document.getElementById("Project2").innerHTML=response1.Project2+", " + response1.Date3;
 		});
-    }
-    document.getElementById("Job1").innerHTML=events.function();
-    var resumes=function()
-    {
+
 
   	var url2= 'https://lewi0151.github.io/Resume.txt';
 		var client2=new jsonClient();
@@ -53,8 +48,7 @@ function Init() {
 	        document.getElementById("Skill").innerHTML=response2.Skills3;
 	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
 		});
-    }
-    document.getElementById("Mail").innerHTML=resumes.function();
+
 
 function translate()
 {
