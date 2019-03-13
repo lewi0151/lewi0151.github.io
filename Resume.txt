@@ -21,4 +21,4 @@
 {"Club3":"Haunted Cretin 2015, 2016, 2017 Tour Guide"},
 {"Club4":"Member of the Math and Actuarial Science Club 2015-2018"},
 {"Club5":"Volunteer Coordinator of The UST Table Top Gaming Club 2018-2019"}
-}]
+]
