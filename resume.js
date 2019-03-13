@@ -28,8 +28,9 @@ function Init() {
 			var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML=response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
-	       	document.getElementById("College").innerHTML=response2.CollegeEducation;
-		    document.getElementById("Work Experience").innerHTML=response2.WorkExperience;
-	        document.getElementById("Skill").innerHTML=response2.Skills3;
-	        document.getElementById("Clubs").innerHTML=response2.CollegeExperienceUST;
+	       	document.getElementById("College").innerHTML=response2.College1+response2.Date1+response2.College2+response2.Date2;
+		document.getElementById("Major").innerHTML=response2.Major1+response2.Major2+response2.Minor1;
+		document.getElementById("Work Experience").innerHTML=response2.Job1+response2.Job2;
+	        document.getElementById("Skill").innerHTML=response2.Skill1+response2.Skill2+response2.Skill3;
+	        document.getElementById("Clubs").innerHTML=response2.Club1+response2.Club2+response2.Club3+response2.Club4+response2.Club5;
 		});
