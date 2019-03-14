@@ -40,21 +40,32 @@ function Init() {
 function translate()
 {
     
-    var key= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
-    var url= "https://translate.yandex.net/"+key+"/v1.5/tr.json/translate";
-    var text="https://lewi0151.github.io/RebeccaLewis";
-    var lang="ru";
-    var format="html";
+    	var keyAPI= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
+	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate",
 
-  var langreq = new XMLHttpRequest();
-  langreq.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("body").innerHTML =
-      this.responseText;
+	document.querySelector('#translate').addEventListener('click', function() {
+    	var request = new XMLHttpRequest(),
+        textAPI = document.querySelector('#all').value,
+        langAPI = document.querySelector('#lang').value
+        data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
+    xhr.open("POST",url,true);
+    xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xhr.send(data);
+    xhr.onreadystatechange = function() {
+        if (this.readyState==4 && this.status==200) {
+            var res = this.responseText;
+            document.querySelector('#json').innerHTML = res;
+            var json = JSON.parse(res);
+            if(json.code == 200) {
+                document.querySelector('#output').innerHTML = json.text[0];
+            }
+            else {
+                document.querySelector('#output').innerHTML = "Error Code: " + json.code;
+            }
+        }
     }
-  };
-  xhttp.open("GET", url, true);
-  xhttp.send();
+}, 
+						    false);
 }
 
  function Lightbox()  {
