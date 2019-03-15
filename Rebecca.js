@@ -37,13 +37,14 @@ function Init() {
 
 
 
-	console.log(textContent);
+	
     
     	var keyAPI= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
 	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
 	document.getElementById("translateButton").addEventListener('click', function(){
     	var request = new XMLHttpRequest();
         textAPI = document.body.value;
+		console.log(textAPI);
         langAPI = document.getElementById("lang").value;
 		alert(textAPI);
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
