@@ -37,9 +37,6 @@ function Init() {
 
 
 
-function translate()
-{
-
 	console.log(textContent);
     
     	var keyAPI= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
@@ -60,7 +57,5 @@ function translate()
         }
     }
 });
-}
-
 
 
