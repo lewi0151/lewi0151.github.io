@@ -43,11 +43,8 @@ function Init() {
 	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
 	document.getElementById("translateButton").addEventListener('click', function(){
     	var request = new XMLHttpRequest();
-        textAPI = document.body;
-		console.log(textAPI);
-	textPie=document.getElementById("source").value;
+        textAPI = document.getElementById(college).value;
         langAPI = document.getElementById("lang").value;
-		alert(textPie);
 		alert(textAPI);
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
     request.open("POST",url,true);
