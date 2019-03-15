@@ -44,7 +44,7 @@ function translate()
 	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
 	document.getElementById("translate2").addEventListener('click', function(){
     	var request = new XMLHttpRequest();
-        textAPI = document.getElementById("all").value;
+        textAPI = document.getElementById("backStory").value;
         langAPI = document.getElementById("lang").value;
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
     request.open("POST",url,true);
@@ -53,7 +53,7 @@ function translate()
     request.onreadystatechange = function() {
         if (this.readyState==4 && this.status==200) {
             var request = this.responseText;
-            document.getElementById("all").innerHTML = request;
+            document.getElementById("backStory").innerHTML = request;
         }
     }
 });
