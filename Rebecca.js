@@ -45,8 +45,8 @@ function translate()
 
 	document.getElementById("#translate2").addEventListener('click', function() {
     	var request = new XMLHttpRequest(),
-        textAPI = document.querySelector('#all').value,
-        langAPI = document.querySelector('#lang').value
+        textAPI = document.getElementById('#all').value,
+        langAPI = document.getElementById('#lang').value
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
     xhr.open("POST",url,true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
@@ -54,13 +54,13 @@ function translate()
     xhr.onreadystatechange = function() {
         if (this.readyState==4 && this.status==200) {
             var res = this.responseText;
-            document.querySelector('#json').innerHTML = res;
+            document.getElementById("#json").innerHTML = res;
             var json = JSON.parse(res);
             if(json.code == 200) {
-                document.querySelector('#output').innerHTML = json.text[0];
+                document.getElementById('#output').innerHTML = json.text[0];
             }
             else {
-                document.querySelector('#output').innerHTML = "Error Code: " + json.code;
+                document.getElementById('#output').innerHTML = "Error Code: " + json.code;
             }
         }
     }
