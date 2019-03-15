@@ -7,9 +7,24 @@ html {
     height:100%;
     font-size: 62.5%;
     font-family: Helvetica, Arial, sans-serif;
+		a:link {
+  	color: rgb(255,255,255); 
+  	text-decoration: none;
+		padding:1rem;
+		background-color:white;
+		border-bottom-style: none;
+				}
+
+	a:visited{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+
+	a:focus{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
+
+	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+
+	a:active{color:rgb(55,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+	
 	}
-	<head>
-	<span class="floatleft"><link rel="stylesheet" href="style.css"/></span>
+
 	
 	
 
@@ -38,22 +53,7 @@ html {
 		height:14rem;
 		text-align: left;
 		color: rgb(255,255,255);
-		a:link {
-  	color: rgb(255,255,255); 
-  	text-decoration: none;
-		padding:1rem;
-		background-color:white;
-		border-bottom-style: none;
-				}
-
-	a:visited{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-	a:focus{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
-
-	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-	a:active{color:rgb(55,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-	}
+	
 
 	#header img 
 	{ 
@@ -62,13 +62,6 @@ html {
  		height: 8rem;
  		width:6.5rem;
 	}
-
-#header ln
-{
-	background-color:white;
-	padding:1rem;
-	text-decoration: none;
-}
 
 	#drop
 	{ 
