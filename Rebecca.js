@@ -48,7 +48,7 @@ function translate()
     	var request = new XMLHttpRequest();
         textAPI = document.body.value;
         langAPI = document.getElementById("lang").value;
-		alert(textAPI!);
+		alert(textAPI);
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
     request.open("POST",url,true);
     request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
