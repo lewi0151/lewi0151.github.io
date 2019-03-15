@@ -37,7 +37,7 @@ function Init() {
 		document.getElementById("Majors3").innerHTML=response2.Minor1;
 		document.getElementById("Work Experience1").innerHTML=response2.Job1
 		document.getElementById("Work Experience2").innerHTML=response2.Job2;
-	        document.getElementById("Skill").innerHTML=response2.Skill1+response2.Skill2+response2.Skill3;
-	        document.getElementById("Clubs").innerHTML=response2.Club1+response2.Club2+response2.Club3+response2.Club4+response2.Club5;
+	        document.getElementById("Skill").innerHTML=response2.Skill1+", "+ response2.Skill2+", "++response2.Skill3;
+	        document.getElementById("Clubs").innerHTML=response2.Club1+", "+response2.Club2+", "+response2.Club3+", "+response2.Club4+", "+response2.Club5;
 		});
 		
