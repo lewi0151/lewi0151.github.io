@@ -54,17 +54,10 @@ function translate()
         if (this.readyState==4 && this.status==200) {
             var request = this.responseText;
             document.getElementById("all").innerHTML = request;
-            var json = JSON.parse(request);
-            if(json.code == 200) {
-                document.getElementById("all").innerHTML = json.text[0];
-            }
-            else {
-                document.getElementById("all").innerHTML = "Error Code: " + json.code;
-            }
         }
     }
-}, 
-						    false);
+};
+							      );
 }
 
 
