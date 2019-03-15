@@ -53,13 +53,13 @@ function translate()
     request.onreadystatechange = function() {
         if (this.readyState==4 && this.status==200) {
             var request = this.responseText;
-            document.getElementById("json").innerHTML = request;
+            document.getElementById("all").innerHTML = request;
             var json = JSON.parse(request);
             if(json.code == 200) {
-                document.getElementById("output").innerHTML = json.text[0];
+                document.getElementById("all").innerHTML = json.text[0];
             }
             else {
-                document.getElementById("output").innerHTML = "Error Code: " + json.code;
+                document.getElementById("all").innerHTML = "Error Code: " + json.code;
             }
         }
     }
