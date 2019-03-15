@@ -28,13 +28,8 @@ function Init() {
 		var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML=response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
-			var a = document.createElement('a');
-			var linkText = document.createTextNode(response2.College1);
-			a.appendChild(linkText);
-			a.title = response2.College1;
-			a.href = "https://www.stthomas.edu";
-			document.body.appendChild(a);
-	       	document.getElementById("College").innerHTML=document.body.appendChild(a)+"    "+response2.Date1+"                 "+response2.College2+response2.Date2;
+	       	document.getElementById("College1").innerHTML=response2.College1+"     "+response2.Date1;
+		document.getElementById("College2").innerHTML=response2.College2+"     "+response2.Date2;
 		document.getElementById("Majors").innerHTML=response2.Major1+response2.Major2+response2.Minor1;
 		document.getElementById("Work Experience").innerHTML=response2.Job1+response2.Job2;
 	        document.getElementById("Skill").innerHTML=response2.Skill1+response2.Skill2+response2.Skill3;
