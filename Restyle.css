@@ -10,8 +10,8 @@ html {
 	}
 	<head>
 	<span class="floatleft"><link rel="stylesheet" href="style.css"/></span>
-
-a:link {
+	
+	a:link {
   	color: black; 
   	text-decoration: none;
 	}
@@ -23,7 +23,8 @@ a:link {
 	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;}
 
 	a:active{color:rgb(10,10,10);text-decoration: none;}
-body
+
+	body
 	{
 		background-color : rgb(100,23,90);
 		width: 100%;
@@ -51,7 +52,7 @@ body
 		color: rgb(255,255,255);
 	}
 
-	#header.img 
+	#header img 
 	{ 
 		float: left; 
  		padding: 5px 5px 5px 5px;
@@ -107,35 +108,12 @@ body
 		padding: 2rem;
 	}
 
-
 	#navigation
 	{
 		color:rgb(255,255,255);
 		font-size:1.25rem;
 		float:left;
 	}
-
-.button {
-  background-color: rgb(255,255,255);
-  border: .25rem;
-  color: rgb(0,0,0);
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 2rem;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.6s;
-  display: inline-block;
-  text-decoration: none;
-}
-.button:hover {opacity: 1;
-background-color: rgb(0,0,0);
-color: rgb(255,255,255);
-transition: 0.6s;
-display: inline-block;
-padding: 16px 32px;
-  text-align: center;
-  font-size: 2rem;}
 
 	#search
 	{
@@ -173,30 +151,25 @@ padding: 16px 32px;
 		color: rgb(255,255,255);
 	}
 	
-p{	a:link {
-  	color: black; 
-  	text-decoration: none;
-		padding:1rem;
-		background-color:white;
-		border-bottom-style: none;
-	}
-
-	a:visited{color:rgb(100,90,90);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-	a:focus{color:rgb(225,225,12);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
-
-	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-	a:active{color:white;text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-}
-#resume
-{
-	text-align: center;
+table img{
+  width:24rem;
+  height: 24rem;
 }
 
+table h3{
+	background-color:rgb(255,255,255);
+}
+
+table p{
+	background-color:rgb(255,255,255);
+	padding-bottom:10rem;
+	
+}
 td {width: 24rem;height: 40rem;background-color: #FFFFFF;}
 
+figcaption { 
+  display: block;
+}
 
  a.p{
     margin:0px 20px;
@@ -210,51 +183,7 @@ td {width: 24rem;height: 40rem;background-color: #FFFFFF;}
 padding-top:2rem;
 color: #F1F1F1;
 background-color:rgb(102, 102, 102);
-			a:link {
-  	color: rgb(255,255,255); 
-  	text-decoration: none;
-		padding:1rem;
-		background-color:white;
-		border-bottom-style: none;
-	}
-
-	a:visited{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-	a:focus{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
-
-	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-
-	a:active{color:rgb(55,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 }
-
-#footer button
-{
-	float:right;
-}
-table img{
-  width:24rem;
-  height: 24rem;
-}
-* {
-  box-sizing: border-box;
-}
-
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
@@ -295,12 +224,9 @@ table img{
   cursor: pointer;
 }
 
+/* Hide the slides by default */
 .mySlides {
   display: none;
-}
-
-.cursor {
-  cursor: pointer;
 }
 
 /* Next & previous buttons */
@@ -342,10 +268,7 @@ table img{
   top: 0;
 }
 
-img {
-  margin-bottom: -4px;
-}
-
+/* Caption text */
 .caption-container {
   text-align: center;
   background-color: black;
@@ -353,7 +276,7 @@ img {
   color: white;
 }
 
-.demo {
+img.demo {
   opacity: 0.6;
 }
 
