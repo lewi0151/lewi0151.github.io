@@ -16,15 +16,16 @@ html {
   	text-decoration: none;
 		padding:1rem;
 		background-color:white;
+		border-bottom-style: none;
 	}
 
-	a:visited{color:rgb(22,255,255);text-decoration: none;transition: 0.6s;}
+	a:visited{color:rgb(22,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 
-	a:focus{color:rgb(225,225,12);text-decoration: none;transition: 0.6s;}
+	a:focus{color:rgb(225,225,12);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
 
-	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;}
+	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 
-	a:active{color:white;text-decoration: none;transition: 0.6s;}
+	a:active{color:white;text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 
 	body
 	{
@@ -33,7 +34,9 @@ html {
 		border-spacing: 1rem;
 		text-align: left;
 		width:85rem;
-		table:hover{font-style: italic; color:FF1A1A;text-decoration: none;background-color:rgb(10,10,10);};
+		table:hover{font-style: italic; color:FF1A1A;text-decoration: none;background-color:rgb(10,10,10);border-bottom-style: none;};
+		a:active{color:rgb(0,0,0); text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+		a:visited{color:rgb(100,23,90);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 	}
 
 	body img
