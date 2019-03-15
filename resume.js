@@ -41,7 +41,7 @@ function Init() {
 	        document.getElementById("Clubs").innerHTML=response2.Club1+", "+response2.Club2+", "+response2.Club3+", "+response2.Club4+", "+response2.Club5;
 		});
 		
-var text = document.body.innerHTML;
+var text = document.getElementById("college").innerHTML;
 // or element.textContent || element.innerText
 
 
