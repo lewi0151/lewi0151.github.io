@@ -43,10 +43,10 @@ function translate()
     	var keyAPI= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
 	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate",
 
-	document.getElementById("#translate2").addEventListener('click', function() {
+	document.getElementById("translate2").addEventListener('click', function() {
     	var request = new XMLHttpRequest(),
-        textAPI = document.getElementById('#all').value,
-        langAPI = document.getElementById('#lang').value
+        textAPI = document.getElementById("all").value,
+        langAPI = document.getElementById("lang").value
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
     xhr.open("POST",url,true);
     xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
@@ -54,13 +54,13 @@ function translate()
     xhr.onreadystatechange = function() {
         if (this.readyState==4 && this.status==200) {
             var res = this.responseText;
-            document.getElementById("#json").innerHTML = res;
+            document.getElementById("json").innerHTML = res;
             var json = JSON.parse(res);
             if(json.code == 200) {
-                document.getElementById('#output').innerHTML = json.text[0];
+                document.getElementById("output").innerHTML = json.text[0];
             }
             else {
-                document.getElementById('#output').innerHTML = "Error Code: " + json.code;
+                document.getElementById("output").innerHTML = "Error Code: " + json.code;
             }
         }
     }
