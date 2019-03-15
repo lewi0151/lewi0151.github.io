@@ -58,7 +58,14 @@ html {
  		padding: 5px 5px 5px 5px;
  		height: 8rem;
  		width:6.5rem;
-	}	
+	}
+
+#header ln
+{
+	background-color:white;
+	padding:1rem;
+	text-decoration: none;
+}
 
 	#drop
 	{ 
