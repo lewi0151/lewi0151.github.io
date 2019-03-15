@@ -156,15 +156,6 @@ table img{
   height: 24rem;
 }
 
-table h3{
-	background-color:rgb(255,255,255);
-}
-
-table p{
-	background-color:rgb(255,255,255);
-	padding-bottom:10rem;
-	
-}
 td {width: 24rem;height: 40rem;background-color: #FFFFFF;}
 
 figcaption { 
@@ -197,7 +188,6 @@ background-color:rgb(102, 102, 102);
   background-color: black;
 }
 
-/* Modal Content */
 .modal-content {
   position: relative;
   background-color: #fefefe;
@@ -207,7 +197,7 @@ background-color:rgb(102, 102, 102);
   max-width: 1200px;
 }
 
-/* The Close Button */
+
 .close {
   color: white;
   position: absolute;
@@ -224,12 +214,10 @@ background-color:rgb(102, 102, 102);
   cursor: pointer;
 }
 
-/* Hide the slides by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -247,19 +235,15 @@ background-color:rgb(102, 102, 102);
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -268,7 +252,6 @@ background-color:rgb(102, 102, 102);
   top: 0;
 }
 
-/* Caption text */
 .caption-container {
   text-align: center;
   background-color: black;
