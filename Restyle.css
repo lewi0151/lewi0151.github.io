@@ -22,7 +22,8 @@ html {
 	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 
 	a:active{color:rgb(55,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
-	
+		<head>
+	<span class="floatleft"><link rel="stylesheet" href="style.css"/></span>
 	}
 	body
 	{
