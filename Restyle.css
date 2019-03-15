@@ -46,7 +46,7 @@ html {
 	{
 		background-image: linear-gradient(to bottom right,rgb(0, 0, 0),rgb(105, 23, 94));
 		position:fixed;
-		width: 100%;
+		left:0px; right:0px;
 		height:14rem;
 		text-align: left;
 		color: rgb(255,255,255);
