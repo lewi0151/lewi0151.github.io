@@ -31,74 +31,233 @@
   </li>
 </ul>
 			</div>
-			<div id="bodytext">
+	      <div id="bodytext">
         <table>
             <tr>
                 <td>
-                   <div id="images" class="images">
- 			 <span class="close cursor" onclick="closeImages()">&times;</span>
-		  <div class="images-content">
-			      <div class="mySlides">
-     		 <div class="numbertext">1 / 4</div>
-   		   <img src="fetus1x.jpg" srcset="fetus2x.jpg 2x" alt="Fetus"/>
-		   </div>
-			                        <div class="mySlides">
-     		 <div class="numbertext">1 / 4</div>
-                    	<img src="tea1x.jpg" srcset="tea2x.jpg 2x" alt="Tea"/>
-		   </div>
-                    <div class="table_link">
-                        <h3>Gestation Lengths</h3>
-                        <p>
-                        For our study, we were trying to see if there was a correlation between the length of the gestation period and the size of the baby. We were only looking at the data provided by our dataset. This dataset contained certain limitations, such as the babies in it all being male. Some variability could also have been presented within the data due to the issue of estimating the exact gestation period’s start date. Previous review has been conducted with the idea of natural variability. This study notes it may be impossible to fully discover the relationship due to the impossibility of separating the gestational age, natural length of pregnancy, or both (see Pemberton et al., 2010).
-                    	</p>
-                    </div>
-                </td>
-                <td>
+                   <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
 
-                    <div class="table_link">
-                        <h3>Caffeine Vs Memory Experiment</h3>
-                        <p>This experiment was to see if someone was given extra caffeine did it affect how well they remember. The result of this experiment could have affect whether or not students will drink more caffeine while studying for exams or working on projects. The control groups consumed their normal amount of caffeine, whereas the treatment groups was given extra caffeine. The results showed no correlation between memory and caffeine.</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                       <img src="ani1x.jpg" srcset="ani2x.jpg 2x" alt="Animated Films"/>
-			</div>
-                    <div class="table_link">
-                        <h3>Animated Films Project</h3>
-                        <p>Our group tried to figure out by using linear regression a formula for predicting how much money an animated film made. Through backwards regression, we found that the number of audience ratings, the number of critic ratings, the actual audience rating, the year of production, the estimated budget, and the art style of the film explained the most variability of the square root of the gross revenue for the film when fitted into a linear model. This model explains 61.57% of the variability in square root of the gross revenue. By making predictions on known films, we saw that the model makes fairly accurate predictions for the most part. We did not have enough evidence to suggest that Disney explained more of the variability in the model than the other variable which are included in our current model. This surprised us based on the boxplots at the beginning showing that Disney films average more gross revenue. We were somewhat surprised to find that people’s opinions of the film have a significant effect on how much the film grosses. Three of our six significant predictor had to do with ratings, showing that word of mouth and opinions of others have a large impact on whether people pay money to see films (therefore impacting the gross revenue).Through this descriptive regression analysis, we found that we can fairly accurately predict the gross revenue for films that gross more than 8 million USD, based on the 6 predictors we found to be significant.</p>
-                    </div>
-                </td>
-                </tr>
+                                <div class="mySlides">
+                                  <div class="numbertext">1 / 3</div>
+                                      <img src="fetus1x.jpg" srcset="fetus2x.jpg 2x" alt="Fetus"/>
+                                 </div>
+
+                                 <div class="mySlides">
+                                      <div class="numbertext">2 / 3</div>
+                                       <img src="fetus2nd1x.jpg" srcset="fetus2nd2x.jpg 2x" alt="Baby"/>
+                                </div>
+
+                                <div class="mySlides">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="fetus3rd1x.jpg" srcset="fetus3rd2x.jpg 2x" alt="Baby"/>
+                                 </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+                                 <div class="caption-container">
+                                 <h2 id="caption">Gestation Lengths</h2>
+                                  <p id="caption">For our study, we were trying to see if there was a correlation between the length of the gestation period and the size of the baby. We were only looking at the data provided by our dataset. This dataset contained certain limitations, such as the babies in it all being male. Some variability could also have been presented within the data due to the issue of estimating the exact gestation period’s start date. Previous review has been conducted with the idea of natural variability. This study notes it may be impossible to fully discover the relationship due to the impossibility of separating the gestational age, natural length of pregnancy, or both (see Pemberton et al., 2010).</p>
+                                 </div>
+
+    
+                                <div class="column">
+                                     <img class="demo" src="fetus1x.jpg" srcset="fetus2x.jpg 2x" onclick="currentSlide(1)" alt="Fetus">
+                                 </div>
+                          </div>
+                      </div>
+                    </td>
+                      <td>
+                   <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+
+                                <div class="mySlides">
+                                  <div class="numbertext">1 / 3</div>
+                                      <img src="tea1x.jpg" srcset="tea2x.jpg 2x" alt="Tea"/>
+                                 </div>
+
+                                 <div class="mySlides">
+                                      <div class="numbertext">2 / 3</div>
+                                       <img src="cafe1x.jpg" srcset="cafe2x.jpg 2x" alt="Cafe"/>
+                                </div>
+
+                                <div class="mySlides">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="pop1x.jpg" srcset="pop2x.jpg 2x" alt="Pop"/>
+                                 </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+                                 <div class="caption-container">
+                                  <h2 id="caption">Caffeine Vs Memory Experiment</h2>
+                                  <p id="caption">This experiment was to see if someone was given extra caffeine did it affect how well they remember. The result of this experiment could have affect whether or not students will drink more caffeine while studying for exams or working on projects. The control groups consumed their normal amount of caffeine, whereas the treatment groups was given extra caffeine. The results showed no correlation between memory and caffeine.</p>
+                                 </div>
+
+    
+                                <div class="column">
+                                     <img class="demo" img src="tea1x.jpg" srcset="tea2x.jpg 2x" alt="Tea" onclick="currentSlide(1)">
+                                 </div>
+                          </div>
+                      </div>
+                    </td>
+                                          <td>
+                   <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+
+                                <div class="mySlides">
+                                  <div class="numbertext">1 / 3</div>
+                                      <img src="ani1x.jpg" srcset="ani2x.jpg 2x" alt="Animated Films"/>
+                                 </div>
+
+                                 <div class="mySlides">
+                                      <div class="numbertext">2 / 3</div>
+                                       <img src="howl1x.jpg" srcset="howl2x.jpg 2x" alt="Howl's Moving Castle"/>
+                                </div>
+
+                                <div class="mySlides">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="ana1x.jpg" srcset="ana2x.jpg 2x" alt="Anastasia"/>
+                                 </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+                                 <div class="caption-container">
+                                  <h2 id="caption">Animated Films Project</h2>
+                                  <p id="caption">Our group tried to figure out by using linear regression a formula for predicting how much money an animated film made. Through backwards regression, we found that the number of audience ratings, the number of critic ratings, the actual audience rating, the year of production, the estimated budget, and the art style of the film explained the most variability of the square root of the gross revenue for the film when fitted into a linear model. This model explains 61.57% of the variability in square root of the gross revenue. By making predictions on known films, we saw that the model makes fairly accurate predictions for the most part. We did not have enough evidence to suggest that Disney explained more of the variability in the model than the other variable which are included in our current model. This surprised us based on the boxplots at the beginning showing that Disney films average more gross revenue. We were somewhat surprised to find that people’s opinions of the film have a significant effect on how much the film grosses. Three of our six significant predictor had to do with ratings, showing that word of mouth and opinions of others have a large impact on whether people pay money to see films (therefore impacting the gross revenue).Through this descriptive regression analysis, we found that we can fairly accurately predict the gross revenue for films that gross more than 8 million USD, based on the 6 predictors we found to be significant. </p>
+                                 </div>
+
+    
+                                <div class="column">
+                                     <img class="demo" img src="ani1x.jpg" srcset="ani2x.jpg 2x" alt="Animated Films" onclick="currentSlide(1)">
+                                 </div>
+                          </div>
+                      </div>
+                    </td>
+                     </tr>
             <tr>
-                <td>
-                    <div>
-                    	<figure>
-<img src="popcorn1x.jpg" srcset="popcorn2x.jpg 2x" alt="Popcorn"/> </div>
-                    <div class="table_link">
-                        <h3>Movie Picking Project</h3>
-                        <figcaption>Our group focused on Movies and the dataset given by the wonderful people at Movielens. We used their ml-100k zip file, so that we could do the opposite of their work. We instead of focusing on finding the best movies for people we focused on finding the worst movies for people. This could either be used for avoiding these movies or for forcing those people that you dislike to watch movies that are horrible for them. We did this by using 3 different systems: Memory based reasoning, Linear Regression, and Neuro Networks, to find out movies that would be horrible for a person that rates 10 movies. Then if a movie was found on more than one of these systems, we would suggest this movie to be an awful pick for the person.
-                       </figcaption>
-				</figure>
-                    </div>
-                </td>
-            
-                <td>
-                    <div>
-    			<img src="life1x.jpg" srcset="life2x.jpg 2x" alt="The Game of Life"/>  </div>
-                    <div class="table_link">
-                        <h3>Game of Life Project</h3>
-                        <p>This was a project to create a change of events in a loop format in R that would show the living cells of an area. If there was over crowding, cells would die. If there was not enough close cells, cells would die. If there were only 2 close cells, the cells would live. This means that groups of three survived. </p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                    	<img src="mn1x.jpg" srcset="mn2x.jpg 2x" alt="MN County Map"/>                 </div>
-                    <div class="table_link">
-                        <h3>MN County Prisons</h3>
-                        <p>This is a current project where I am finding infomation about MN county prisons so that I can predict how many prisoners each will have in the coming weeks and what conditions lead to the amount of people in prison in a county (i.e. education, provety, etc)</p>
-                    </div>
-                </td>
+                        <td>
+                   <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+
+                                <div class="mySlides">
+                                  <div class="numbertext">1 / 3</div>
+                                      <img src="popcorn1x.jpg" srcset="popcorn2x.jpg 2x" alt="Popcorn"/>
+                                 </div>
+
+                                 <div class="mySlides">
+                                      <div class="numbertext">2 / 3</div>
+                                       <img src="movie1x.jpg" srcset="movie2x.jpg 2x" alt="Fargo Film"/>
+                                </div>
+
+                                <div class="mySlides">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="rock1x.jpg" srcset="rock2x.jpg 2x" alt="Rocketeer Film"/>
+                                 </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+                                 <div class="caption-container">
+                                  <h2 id="caption">Movie Picking Project</h2>
+                                  <p id="caption">Our group focused on Movies and the dataset given by the wonderful people at Movielens. We used their ml-100k zip file, so that we could do the opposite of their work. We instead of focusing on finding the best movies for people we focused on finding the worst movies for people. This could either be used for avoiding these movies or for forcing those people that you dislike to watch movies that are horrible for them. We did this by using 3 different systems: Memory based reasoning, Linear Regression, and Neuro Networks, to find out movies that would be horrible for a person that rates 10 movies. Then if a movie was found on more than one of these systems, we would suggest this movie to be an awful pick for the person.</p>
+                                 </div>
+
+    
+                                <div class="column">
+                                     <img class="demo"img src="popcorn1x.jpg" srcset="popcorn2x.jpg 2x" alt="Popcorn" onclick="currentSlide(1)">
+                                 </div>
+                          </div>
+                      </div>
+                    </td>
+                     <td>
+                   <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+
+                                <div class="mySlides">
+                                  <div class="numbertext">1 / 3</div>
+                                      <img src="life1x.jpg" srcset="life1x.jpg" alt="The Game of Life"/>
+                                 </div>
+
+                                 <div class="mySlides">
+                                      <div class="numbertext">2 / 3</div>
+                                       <img src="movie1x.jpg" srcset="movie2x.jpg 2x" alt="The Game of Life"/>
+                                </div>
+
+                                <div class="mySlides">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="rock1x.jpg" srcset="rock2x.jpg 2x" alt="Explaination of the Game of Life"/>
+                                 </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+                                 <div class="caption-container">
+                                  <h2 id="caption">Game of Life Project</h2>
+                                  <p id="caption">This was a project to create a change of events in a loop format in R that would show the living cells of an area. If there was over crowding, cells would die. If there was not enough close cells, cells would die. If there were only 2 close cells, the cells would live. This means that groups of three survived.</p>
+                                 </div>
+
+    
+                                <div class="column">
+                                     <img class="demo" img src="life1x.jpg" srcset="life1x.jpg" alt="The Game of Life" onclick="currentSlide(1)">
+                                 </div>
+                          </div>
+                      </div>
+                    </td>
+                       <td>
+                   <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+
+                                <div class="mySlides">
+                                  <div class="numbertext">1 / 3</div>
+                                      <img src="mn1x.jpg" srcset="mn2x.jpg 2x" alt="Mn County Map"/>
+                                 </div>
+
+                                 <div class="mySlides">
+                                      <div class="numbertext">2 / 3</div>
+                                       <img src="cell1x.jpg" srcset="cell2x.jpg 2x" alt="Cell Block"/>
+                                </div>
+
+                                <div class="mySlides">
+                                      <div class="numbertext">3 / 3</div>
+                                      <img src="pri1x.jpg" srcset="pri2x.jpg 2x" alt="Cell Block"/>
+                                 </div>
+
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    
+                                 <div class="caption-container">
+                                  <h2 id="caption">MN County Prisons</h2>
+                                  <p id="caption">This is a current project where I am finding infomation about MN county prisons so that I can predict how many prisoners each will have in the coming weeks and what conditions lead to the amount of people in prison in a county (i.e. education, provety, etc).</p>
+                                 </div>
+
+    
+                                <div class="column">
+                                     <img class="demo" img src=img src="mn1x.jpg" srcset="mn2x.jpg 2x" alt="Mn County Map" onclick="currentSlide(1)">
+                                 </div>
+                          </div>
+                      </div>
+                    </td>
             </tr>
         </table>
         <div id="footer">
@@ -108,54 +267,61 @@
 			
 	</div>
 	</div>
-<span class="floatleft"><a><a href="https://www.stthomas.edu"/> University of St. Thomas </a></span>
+
 			</div>
 			<p>Source</p>
-<textarea id="source" class="bx">This is Sparta!
-
-
-My name is Vasya!
-</textarea>
+<div id="footer">
+            <p><a href="http://translate.yandex.com/" > Powered by Yandex.Translate </a></p>			
+			<div id="drop">
 <select name="to" id="lang">
-    <option value="az">Азербайджанский</option>
-    <option value="sq">Албанский</option>
-    <option value="en">Английский</option>
-    <option value="hy">Армянский</option>
-    <option value="be">Белорусский</option>
-    <option value="bg">Болгарский</option>
-    <option value="hu">Венгерский</option>
-    <option value="nl">Голландский</option>
-    <option value="el">Греческий</option>
-    <option value="da">Датский</option>
-    <option value="es">Испанский</option>
-    <option value="it">Итальянский</option>
-    <option value="ca">Каталанский</option>
-    <option value="lv">Латышский</option>
-    <option value="lt">Литовский</option>
-    <option value="mk">Македонский</option>
-    <option value="de">Немецкий</option>
-    <option value="no">Норвежский</option>
-    <option value="pl">Польский</option>
-    <option value="pt">Португальский</option>
-    <option value="ro">Румынский</option>
-    <option value="ru" selected="selected">Русский</option>
-    <option value="sr">Сербский</option>
-    <option value="sk">Словацкий</option>
-    <option value="sl">Словенский</option>
-    <option value="tr">Турецкий</option>
-    <option value="uk">Украинский</option>
-    <option value="fi">Финский</option>
-    <option value="fr">Французский</option>
-    <option value="hr">Хорватский</option>
-    <option value="cs">Чешский</option>
-    <option value="sv">Шведский</option>
-    <option value="et">Эстонский</option>
+    <option value="en">English</option>
+    <option value="az">Afrikaans</option>
+    <option value="sq">Albanian </option>
+    <option value="ar">Arabic</option>
+    <option value="hy">Armenian</option>
+    <option value="am">Amharic</option>
+	<option value="az">Azerbaijani</option>
+	<option value="eu">Basque</option>
+    <option value="ba">Bashkir</option>
+    <option value="be">Belarusian</option>
+    <option value="bn">Bengali</option>
+    <option value="my">Burmese</option>
+    <option value="bs">Bosnian</option>
+    <option value="bg">Bulgarian</option>
+    <option value="ceb">Cebuano</option>
+    <option value="ca">Catalan</option>
+    <option value="zh">Chinese</option>
+    <option value="hr">Croatian</option>
+    <option value="cs">Czech</option>
+    <option value="da">Danish</option>
+    <option value="nl">Dutch</option>
+    <option value="sjn">Elvish</option>
+    <option value="emj">Emoji</option>
+    <option value="eo">Esperanto</option>
+	    <option value="et">Estonian</option>
+    <option value="fi">Finnish</option>
+    <option value="fr">French</option>
+    <option value="gl">Galician</option>
+    <option value="ka">Georgian</option>
+	    <option value="de">German</option>
+    <option value="el">Greek</option>
+    <option value="gu">Gujarati</option>
+    <option value="ht">Haitian</option>
+    <option value="he">Hebrew</option>
+	    <option value="mrj">Hill Mari</option>
+    <option value="hi">Hindi</option>
+    <option value="hu">Hungarian</option>
+    <option value="is">Icelandic</option>
+    <option value="id">Indonsian</option>
+   
 </select>
-<button id="translate">Translate</button>
-<p>json</p>
-<div id="json" class="bx"></div>
-<p>Output</p>
-<div id="output" class="bx"></div>
+<button id="translateButton">Translate</button>
+	<div id="json" class="bx"></div>
+		<div id="output" class="bx"></div>
+  		</div>
+	</div>
+</div>
+</div>
 		<script src="Project.js"></script>
 		</body>
 	</html>
