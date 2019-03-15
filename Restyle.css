@@ -178,6 +178,10 @@ p{	a:link {
 	a:active{color:white;text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 
 }
+#resume
+{
+	float:center;
+}
 
 td {width: 24rem;height: 40rem;background-color: #FFFFFF;}
 
