@@ -3,12 +3,12 @@ function Init() {
 }
 
 function openModal() {
-  document.getElementById('images').style.display = "block";
+  document.getElementById('myModal').style.display = "block";
 }
 
 // Close the Modal
-function closeImages() {
-  document.getElementById('images').style.display = "none";
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
 }
 
 var slideIndex = 1;
