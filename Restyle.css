@@ -14,6 +14,8 @@ html {
 	a:link {
   	color: black; 
   	text-decoration: none;
+		padding:1rem;
+		background-color:white;
 	}
 
 	a:visited{color:rgb(22,255,255);text-decoration: none;transition: 0.6s;}
@@ -22,7 +24,7 @@ html {
 
 	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;}
 
-	a:active{color:rgb(10,10,10);text-decoration: none;transition: 0.6s;}
+	a:active{color:white;text-decoration: none;transition: 0.6s;}
 
 	body
 	{
