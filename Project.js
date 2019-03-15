@@ -31,10 +31,10 @@ function showSlides(n) {
   var captionText = document.getElementById("caption");
   if (n > 6) {slideIndex = 1}
   if (n < 1) {slideIndex = 6}
-  for (i = 0; i < 6; i++) {
+  for (i = 0; i < 4; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < 6; i++) {
+  for (i = 0; i < 4; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
