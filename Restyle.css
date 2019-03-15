@@ -170,6 +170,11 @@ padding-top:2rem;
 color: #F1F1F1;
 background-color:rgb(102, 102, 102);
 }
+
+#footer button
+{
+	float:right;
+}
 table img{
   width:24rem;
   height: 24rem;
