@@ -28,10 +28,15 @@ function Init() {
 		var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML=response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
-	       	document.getElementById("College1").innerHTML=response2.College1+"     "+response2.Date1;
-		document.getElementById("College2").innerHTML=response2.College2+"     "+response2.Date2;
-		document.getElementById("Majors").innerHTML=response2.Major1+response2.Major2+response2.Minor1;
-		document.getElementById("Work Experience").innerHTML=response2.Job1+response2.Job2;
+		document.getElementById("Date1").innerHTML=response2.Date1;
+	       	document.getElementById("College1").innerHTML=response2.College1;
+		document.getElementById("Date2").innerHTML=response2.Date2;
+		document.getElementById("College2").innerHTML=response2.College2;
+		document.getElementById("Majors1").innerHTML=response2.Major1;
+		document.getElementById("Majors2").innerHTML=response2.Major2;
+		document.getElementById("Majors3").innerHTML=response2.Minor1;
+		document.getElementById("Work Experience1").innerHTML=response2.Job1
+		document.getElementById("Work Experience2").innerHTML=response2.Job2;
 	        document.getElementById("Skill").innerHTML=response2.Skill1+response2.Skill2+response2.Skill3;
 	        document.getElementById("Clubs").innerHTML=response2.Club1+response2.Club2+response2.Club3+response2.Club4+response2.Club5;
 		});
