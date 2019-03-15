@@ -58,4 +58,19 @@ function Init() {
     }
 });
 
+var text = document.body.innerHTML;
+// or element.textContent || element.innerText
 
+
+        langAPI = document.getElementById("lang").value;
+        data = "key="+keyAPI+"&text="+text+"&lang="+langAPI;
+    request.open("POST",url,true);
+    request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    request.send(data);
+    request.onreadystatechange = function() {
+        if (this.readyState==4 && this.status==200) {
+            var request = this.responseText;
+             document.body.innerHTML= request;
+        }
+    }
+});
