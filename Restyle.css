@@ -14,15 +14,15 @@ html {
 	a:link {
   	color: black; 
   	text-decoration: none;
-	}
+	transition:0.6s}
 
-	a:visited{color:rgb(10,10,10);text-decoration: none;}
+	a:visited{color:rgb(10,10,10);text-decoration: none;background-color:white;transition:0.6s}
 
-	a:focus{color:rgb(225,225,12);text-decoration: none;}
+	a:focus{color:rgb(225,225,12);text-decoration: none;transition:0.6s}
 
-	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;}
+	a:hover{font-style: italic; color:white; background-color: black; text-decoration: none;transition:0.6stransition:0.6s}
 
-	a:active{color:rgb(10,10,10);text-decoration: none;}
+	a:active{color:rgb(10,10,10);text-decoration: none;transition:0.6s}
 
 	body
 	{
