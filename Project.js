@@ -21,6 +21,4 @@ xmlhttp.send();
         out += arr[i].url + arr[i].display;
     }
     document.getElementById("id01").innerHTML = out;
-}
-  	
-		});
+});
