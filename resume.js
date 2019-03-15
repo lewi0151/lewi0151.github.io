@@ -3,7 +3,7 @@ function Init() {
 }
     
   
-    var jsonClient = function()
+   var jsonClient = function()
        {
 
 			this.get=function(aUrl,aCallback)
@@ -13,19 +13,19 @@ function Init() {
 				{
 					if (jsonreq.readyState ==4&& jsonreq.status ==200)
 					{
-        	   			aCallback(jsonreq.responseText);
-        		}
-        	}
-    		jsonreq.open("GET", url, true);
-		jsonreq.send(null);
-		}
+        		    			aCallback(jsonreq.responseText);
+        				}
+        			}
+    			jsonreq.open("GET", url, true);
+			jsonreq.send(null);
+			}
 	}
 	
-  	var url= 'https://lewi0151.github.io/Resume.txt';
-		var client2=new jsonClient();
-		client2.get(url, function(response)
+    	var url= 'https://lewi0151.github.io/Resume.txt';
+		var client=new jsonClient();
+		client.get(url, function(response)
 		{
-			var response2=JSON.parse(response);
+		var response2=JSON.parse(response);
 	        document.getElementById("Mail").innerHTML=response2.Mail;
 	        document.getElementById("Objective").innerHTML=response2.Objective;
 	       	document.getElementById("College").innerHTML=response2.College1+response2.Date1+response2.College2+response2.Date2;
@@ -34,3 +34,4 @@ function Init() {
 	        document.getElementById("Skill").innerHTML=response2.Skill1+response2.Skill2+response2.Skill3;
 	        document.getElementById("Clubs").innerHTML=response2.Club1+response2.Club2+response2.Club3+response2.Club4+response2.Club5;
 		});
+		
