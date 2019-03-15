@@ -41,3 +41,26 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+    
+    	var keyAPI= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
+	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
+	document.getElementById("translateButton").addEventListener('click', function(){
+    	var request = new XMLHttpRequest();
+
+
+var text = document.body.innerHTML;
+// or element.textContent || element.innerText
+
+
+        langAPI = document.getElementById("lang").value;
+        data = "key="+keyAPI+"&text="+text+"&lang="+langAPI;
+    request.open("POST",url,true);
+    request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    request.send(data);
+    request.onreadystatechange = function() {
+        if (this.readyState==4 && this.status==200) {
+            var request = this.responseText;
+             document.body.innerHTML= request;
+        }
+    }
+});
