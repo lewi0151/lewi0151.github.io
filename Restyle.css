@@ -55,6 +55,21 @@ html {
 		height:14rem;
 		text-align: left;
 		color: rgb(255,255,255);
+		a:link {
+  	color: rgb(255,255,255); 
+  	text-decoration: none;
+		padding:1rem;
+		background-color:white;
+		border-bottom-style: none;
+	}
+
+	a:visited{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+
+	a:focus{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
+
+	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+
+	a:active{color:rgb(55,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 	}
 
 	#header img 
@@ -180,6 +195,21 @@ td {width: 24rem;height: 40rem;background-color: #FFFFFF;}
 padding-top:2rem;
 color: #F1F1F1;
 background-color:rgb(102, 102, 102);
+			a:link {
+  	color: rgb(255,255,255); 
+  	text-decoration: none;
+		padding:1rem;
+		background-color:white;
+		border-bottom-style: none;
+	}
+
+	a:visited{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+
+	a:focus{color:rgb(255,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;border-bottom-style: none;}
+
+	a:hover{font-style: italic; color:FF1A1A; background-color: black; text-decoration: none;transition: 0.6s;border-bottom-style: none;}
+
+	a:active{color:rgb(55,255,255);text-decoration: none;transition: 0.6s;border-bottom-style: none;}
 }
 
 #footer button
