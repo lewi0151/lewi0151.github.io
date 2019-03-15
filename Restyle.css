@@ -151,16 +151,10 @@ html {
 		color: rgb(255,255,255);
 	}
 	
-table img{
-  width:24rem;
-  height: 24rem;
-}
+
 
 td {width: 24rem;height: 40rem;background-color: #FFFFFF;}
 
-figcaption { 
-  display: block;
-}
 
  a.p{
     margin:0px 20px;
@@ -175,7 +169,11 @@ padding-top:2rem;
 color: #F1F1F1;
 background-color:rgb(102, 102, 102);
 }
-.modal {
+table img{
+  width:24rem;
+  height: 24rem;
+}
+.modal img{
   display: none;
   position: fixed;
   z-index: 1;
