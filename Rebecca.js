@@ -48,14 +48,14 @@ function translate()
         textAPI = document.getElementById("all").value,
         langAPI = document.getElementById("lang").value
         data = "key="+keyAPI+"&text="+textAPI+"&lang="+langAPI;
-    xhr.open("POST",url,true);
-    xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-    xhr.send(data);
-    xhr.onreadystatechange = function() {
+    request.open("POST",url,true);
+    request.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    request.send(data);
+    request.onreadystatechange = function() {
         if (this.readyState==4 && this.status==200) {
-            var res = this.responseText;
-            document.getElementById("json").innerHTML = res;
-            var json = JSON.parse(res);
+            var request = this.responseText;
+            document.getElementById("json").innerHTML = request;
+            var json = JSON.parse(request);
             if(json.code == 200) {
                 document.getElementById("output").innerHTML = json.text[0];
             }
