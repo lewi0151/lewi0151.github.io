@@ -30,7 +30,7 @@ html {
 		font-size: 1.25rem;
 		border-spacing: 1rem;
 		text-align: left;
-		width:55rem;
+		width:85rem;
 		table:hover{font-style: italic; color:FF1A1A;text-decoration: none;background-color:rgb(10,10,10);border-bottom-style: none;};
 }
 	body img
@@ -83,14 +83,6 @@ html {
   display: block;
   text-align: left;
 }
-	li 
-	{
- 	 float: left;
- 	 padding: 2rem;
- 	 color:rgb(255,255,255);
- 	 text-decoration: none;
- 	 display: inline-block;
-	}
 	
 	#bodytext
 	{
