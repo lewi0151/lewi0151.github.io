@@ -1,4 +1,4 @@
-[{"Name": "Rebecca Jo Lewis"},
+{"Name": "Rebecca Jo Lewis"},
 {"Phone": "507-358-3675"},
 {"Mail":"Mailbox 5295, 2115 Summit Ave, St. Paul, MN  55105"},
 {"Objective": "To obtain an entry-level job position in an organization where I can use my statistical knowledge, computer and actuarial science skills to expand my work experience while enhancing the work environment."},
@@ -21,4 +21,4 @@
 {"Club3":"Haunted Cretin 2015, 2016, 2017 Tour Guide"},
 {"Club4":"Member of the Math and Actuarial Science Club 2015-2018"},
 {"Club5":"Volunteer Coordinator of The UST Table Top Gaming Club 2018-2019"}
-]
+
