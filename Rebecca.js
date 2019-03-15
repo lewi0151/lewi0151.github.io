@@ -41,8 +41,8 @@ function translate()
 {
     
     	var keyAPI= "trnsl.1.1.20190311T054604Z.129c310cdc871e0d.34e1d905d9ed92739e3f50f56a8479f791e79363";
-	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate",
-document.getElementById("translate2").addEventListener('click', function(){
+	 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
+	document.getElementById("translate2").addEventListener('click', function(){
     	var request = new XMLHttpRequest(),
         textAPI = document.getElementById("all").value,
         langAPI = document.getElementById("lang").value
